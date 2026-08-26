@@ -1,6 +1,5 @@
 # STOCK-MARKET-ANALYSIS 
 
-
 <div align="center">
 
 📈 Stock Market Analysis & Visualization Dashboard
