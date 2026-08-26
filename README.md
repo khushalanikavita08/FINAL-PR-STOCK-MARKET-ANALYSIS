@@ -1,5 +1,5 @@
 # STOCK-MARKET-ANALYSIS
-<div align="center">
+ <div align="center">
 
 # 📈 Stock Market Analysis & Visualization Dashboard
 
@@ -29,6 +29,12 @@
 
 ---
 
+<div align="center">
+
+![Menu](https://img.shields.io/badge/📚_MENU-Jump%20to%20a%20Section-6C5CE7?style=for-the-badge&labelColor=A29BFE)
+
+</div>
+
 ## 📚 Menu
 
 - [Project Overview](#-project-overview)
@@ -47,6 +53,12 @@
 
 ---
 
+<div align="center">
+
+![Project Overview](https://img.shields.io/badge/🧠_PROJECT-Overview-0984E3?style=for-the-badge&labelColor=74B9FF)
+
+</div>
+
 ## 🧠 Project Overview
 
 This is an **end-to-end stock market analysis tool** built in Python that downloads real market data through the `yfinance` API and transforms it into professional-grade, publication-ready visualizations. It automatically calculates moving averages, daily returns, and rolling volatility, then generates four clean charts — trend, volume, return distribution, and correlation — so you can go from raw ticker data to actionable insight in a single run.
@@ -55,11 +67,22 @@ Whether you're a student learning quantitative finance, a hobbyist tracking your
 
 ---
 
+<div align="center">
+
+![Live Market Snapshot](https://img.shields.io/badge/⚡_LIVE-Market%20Snapshot-00B894?style=for-the-badge&labelColor=55EFC4)
+
+</div>
+
 ## ⚡ Live Market Snapshot
 
 > 📡 Every time this project runs, it pulls **live** market data straight from the yfinance API — no static or outdated numbers, just fresh prices, volumes, and trends fetched directly from the exchange.
 
 <div align="center">
+
+<!-- Genuinely live, auto-refreshing price badge — fetched in real time, not a static image -->
+[![RELIANCE.NS Live Price](https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=%F0%9F%92%B9%20RELIANCE.NS&query=%24.chart.result%5B0%5D.meta.regularMarketPrice&url=https%3A%2F%2Fquery1.finance.yahoo.com%2Fv8%2Ffinance%2Fchart%2FRELIANCE.NS&color=00C853&labelColor=1e1e2f&suffix=%20INR)](https://finance.yahoo.com/quote/RELIANCE.NS)
+
+*(This badge is not a picture — it pings the market on every page load and shows the actual current price. Refresh this page to watch it move.)*
 
 [![Live Chart](https://img.shields.io/badge/📊_Live_Chart-View_on_TradingView-131722?style=for-the-badge&logo=tradingview&logoColor=white)](https://www.tradingview.com/symbols/NSE-RELIANCE/)
 [![Live Price](https://img.shields.io/badge/💹_Live_Price-Yahoo_Finance-720E9E?style=for-the-badge&logo=yahoofinance&logoColor=white)](https://finance.yahoo.com/quote/RELIANCE.NS)
@@ -67,6 +90,12 @@ Whether you're a student learning quantitative finance, a hobbyist tracking your
 </div>
 
 ---
+
+<div align="center">
+
+![Key Features](https://img.shields.io/badge/✨_KEY-Features-E17055?style=for-the-badge&labelColor=FAB1A0)
+
+</div>
 
 ## ✨ Key Features
 
@@ -83,6 +112,12 @@ Whether you're a student learning quantitative finance, a hobbyist tracking your
 - 🧾 **Quick Statistics** — Descriptive stats (mean, std, min/max) printed to console
 
 ---
+
+<div align="center">
+
+![Project Structure](https://img.shields.io/badge/🗂️_PROJECT-Structure-2D3436?style=for-the-badge&labelColor=636E72)
+
+</div>
 
 ## 🗂️ Project Structure
 
@@ -101,6 +136,12 @@ stock-analysis-dashboard/
 
 ---
 
+<div align="center">
+
+![Tech Stack](https://img.shields.io/badge/🛠️_TECH-Stack-0FB9B1?style=for-the-badge&labelColor=00CEC9)
+
+</div>
+
 ## 🛠️ Tech Stack
 
 | Tool | Purpose |
@@ -113,6 +154,12 @@ stock-analysis-dashboard/
 | 🌊 Seaborn | Statistical visualizations |
 
 ---
+
+<div align="center">
+
+![Getting Started](https://img.shields.io/badge/🚀_GETTING-Started-E84393?style=for-the-badge&labelColor=FD79A8)
+
+</div>
 
 ## 🚀 Getting Started
 
@@ -141,6 +188,12 @@ As soon as the script finishes, 4 charts will be saved automatically in the curr
 
 ---
 
+<div align="center">
+
+![Configuration](https://img.shields.io/badge/⚙️_CONFIG-Options-FDCB6E?style=for-the-badge&labelColor=FFEAA7)
+
+</div>
+
 ## ⚙️ Configuration
 
 You can analyze any stock by changing these values at the top of the script:
@@ -154,6 +207,12 @@ END_DATE = "2024-12-31"
 > 💡 Tip: Use the correct exchange suffix for non-US stocks — e.g. `.NS` for NSE (India), `.BO` for BSE, `.L` for London Stock Exchange.
 
 ---
+
+<div align="center">
+
+![Sample Output](https://img.shields.io/badge/📸_SAMPLE-Output-6C5CE7?style=for-the-badge&labelColor=A29BFE)
+
+</div>
 
 ## 📸 Sample Output
 
@@ -171,6 +230,12 @@ END_DATE = "2024-12-31"
 
 ---
 
+<div align="center">
+
+![Roadmap](https://img.shields.io/badge/🗺️_ROADMAP-What's%20Next-00CEC9?style=for-the-badge&labelColor=81ECEC)
+
+</div>
+
 ## 🗺️ Roadmap
 
 - [ ] Add interactive charts using Plotly
@@ -180,6 +245,12 @@ END_DATE = "2024-12-31"
 - [ ] Build a simple Streamlit web dashboard
 
 ---
+
+<div align="center">
+
+![FAQ](https://img.shields.io/badge/❓_FAQ-Common%20Questions-D63031?style=for-the-badge&labelColor=FF7675)
+
+</div>
 
 ## ❓ FAQ
 
@@ -191,6 +262,12 @@ Usually caused by an invalid ticker symbol or no internet connection during the 
 
 ---
 
+<div align="center">
+
+![Feedback](https://img.shields.io/badge/💬_FEEDBACK-We're%20Listening-0984E3?style=for-the-badge&labelColor=74B9FF)
+
+</div>
+
 ## 💬 Feedback
 
 If you have any suggestions or ideas for improvement, please open an issue — every bit of feedback helps make this project better! 🙌
@@ -198,12 +275,24 @@ Real-world use cases from users are exactly what motivate new features to get bu
 
 ---
 
+<div align="center">
+
+![Contributing](https://img.shields.io/badge/🤝_CONTRIBUTING-Get%20Involved-00B894?style=for-the-badge&labelColor=55EFC4)
+
+</div>
+
 ## 🤝 Contributing
 
 Contributions are always welcome — fork it, make your changes, and send a PR! 🚀
 For bigger changes, opening an issue first to discuss is usually the better approach. 🧩
 
 ---
+
+<div align="center">
+
+![License](https://img.shields.io/badge/📄_LICENSE-MIT-2D3436?style=for-the-badge&labelColor=B2BEC3)
+
+</div>
 
 ## 📄 License
 
