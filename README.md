@@ -29,7 +29,7 @@ It fetches **live data** via `yfinance`, performs **feature engineering** (movin
 
 The goal is to make stock analysis **clear, interactive, and visually appealing** — perfect for reports, presentations, or personal learning.
 
----
+
 
 ## ⚡ Run Live
 ```bash
