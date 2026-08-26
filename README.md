@@ -4,6 +4,13 @@
 
 📈 Stock Market Analysis & Visualization Dashboard
 "Numbers tell stories that words often can't." 🕯️
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge\&logo=pandas\&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Analysis-013243?style=for-the-badge\&logo=numpy\&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557C?style=for-the-badge)
+![Seaborn](https://img.shields.io/badge/Seaborn-Analytics-4C72B0?style=for-the-badge)
+![Status](https://img.shields.io/badge/PROJECT-LIVE-00C853?style=for-the-badge)
+
 <br>
 
 
@@ -458,3 +465,4 @@ You are free to use, modify, and distribute this project according to the terms 
 ✨ Made with ❤️ by Kavita ✨
 ⭐ If you like this project, don't forget to Star it! ⭐
 </div>
+ 
