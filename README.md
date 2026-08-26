@@ -1,316 +1,168 @@
 # STOCK-MARKET-ANALYSIS
- <div align="center">
-
-# 📈 Stock Market Analysis & Visualization Dashboard
-
-### *"Numbers tell stories that words often can't."* 🕯️
-
+<div align="center">
+📈 Stock Market Analysis & Visualization Dashboard
+"Numbers tell stories that words often can't." 🕯️
 <br>
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![yfinance](https://img.shields.io/badge/yfinance-Data%20Source-00C853?style=for-the-badge&logo=yahoo&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Plots-11557C?style=for-the-badge&logo=plotly&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-4C72B0?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
-![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-ff69b4?style=for-the-badge)
 
-<br>
 
-<!-- LIVE / ANIMATED SECTION -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00C9A7&center=true&vCenter=true&width=650&lines=Live+Stock+Market+Analysis+%F0%9F%93%88;Tracking+RELIANCE.NS+in+Real-Time;Trend+%2B+Volatility+%2B+Correlation;Powered+by+Python+%F0%9F%90%8D" alt="Typing SVG" />
+
+
+
+
+
+
+
+<br> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00C9A7&center=true&vCenter=true&width=700&lines=Live+Stock+Market+Analysis+%F0%9F%93%88;Tracking+RELIANCE.NS+%F0%9F%92%B9;Trend+%2B+Volatility+%2B+Correlation;Powered+by+Python+%F0%9F%90%8D" alt="Typing SVG" />
 
 <br><br>
 
-![Live Stock Ticker](https://raw.githubusercontent.com/gadhagod/stock-widget-images/main/graph.gif)
-
 </div>
-
----
-
 <div align="center">
 
-![Menu](https://img.shields.io/badge/📚_MENU-Jump%20to%20a%20Section-6C5CE7?style=for-the-badge&labelColor=A29BFE)
-
 </div>
+📚 Menu
+🧠 About The Project
+⚡ Live Market Snapshot
+✨ Key Features
+🗂️ Project Structure
+🛠️ Tech Stack
+🚀 Getting Started
+⚙️ Configuration
+📸 Sample Output
+🗺️ Roadmap
+❓ FAQ
+💬 Feedback
+🤝 Contributing
+📄 License
+<!-- ====================================================== --> <!-- ABOUT THE PROJECT --> <!-- ====================================================== --> <div align="center"> <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00C6FF,100:7B2FFF&height=130&text=🧠%20ABOUT%20THE%20PROJECT&fontSize=32&fontColor=FFFFFF&fontAlignY=43&desc=Learn%20what%20this%20project%20is%20all%20about&descSize=16&descAlignY=68" width="100%" /> </div>
+🧠 About The Project
 
-## 📚 Menu
+This is an end-to-end stock market analysis tool built in Python that downloads real market data through the yfinance API and transforms it into professional-grade, publication-ready visualizations.
 
-- [Project Overview](#-project-overview)
-- [Live Market Snapshot](#-live-market-snapshot)
-- [Key Features](#-key-features)
-- [Project Structure](#️-project-structure)
-- [Tech Stack](#️-tech-stack)
-- [Getting Started](#-getting-started)
-- [Configuration](#️-configuration)
-- [Sample Output](#-sample-output)
-- [Roadmap](#-roadmap)
-- [FAQ](#-faq)
-- [Feedback](#-feedback)
-- [Contributing](#-contributing)
-- [License](#-license)
+It automatically calculates:
 
----
+📊 SMA 20
+📊 SMA 50
+📈 EMA 20
+📉 Daily Returns
+🌊 Rolling Volatility
+🔥 Correlation Matrix
+
+The project generates four clean analytical charts:
+
+📈 Price Trend with Moving Averages
+📊 Trading Volume
+📉 Daily Returns Distribution
+🔥 Correlation Heatmap
+
+Whether you're a student learning quantitative finance, a hobbyist tracking stocks, or someone prototyping a larger trading system, this project provides a clean and extensible foundation.
+
+<!-- ====================================================== --> <!-- LIVE MARKET SNAPSHOT --> <!-- ====================================================== --> <div align="center"> <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00C853,100:00B8D4&height=130&text=⚡%20LIVE%20MARKET%20SNAPSHOT&fontSize=30&fontColor=FFFFFF&fontAlignY=43&desc=Real-Time%20Stock%20Market%20Analysis&descSize=16&descAlignY=68" width="100%" /> </div>
+⚡ Live Market Snapshot
+
+🟢 LIVE DATA: Every time this project runs, it fetches fresh market data using the yfinance API.
 
 <div align="center">
+💹 RELIANCE.NS — LIVE PRICE
 
-![Project Overview](https://img.shields.io/badge/🧠_PROJECT-Overview-0984E3?style=for-the-badge&labelColor=74B9FF)
+<br>
 
-</div>
+<br>
 
-## 🧠 Project Overview
-
-This is an **end-to-end stock market analysis tool** built in Python that downloads real market data through the `yfinance` API and transforms it into professional-grade, publication-ready visualizations. It automatically calculates moving averages, daily returns, and rolling volatility, then generates four clean charts — trend, volume, return distribution, and correlation — so you can go from raw ticker data to actionable insight in a single run.
-
-Whether you're a student learning quantitative finance, a hobbyist tracking your favorite stock, or someone prototyping a bigger trading system, this project gives you a solid, ready-to-extend foundation.
-
----
-
-<div align="center">
-
-![Live Market Snapshot](https://img.shields.io/badge/⚡_LIVE-Market%20Snapshot-00B894?style=for-the-badge&labelColor=55EFC4)
+🟢 LIVE • 📡 MARKET DATA • ⚡ AUTO UPDATED
 
 </div>
 
-## ⚡ Live Market Snapshot
+⚠️ Market prices can change continuously during trading hours. The displayed price depends on the data provided by Yahoo Finance.
 
-> 📡 Every time this project runs, it pulls **live** market data straight from the yfinance API — no static or outdated numbers, just fresh prices, volumes, and trends fetched directly from the exchange.
-
-<div align="center">
-
-<!-- Genuinely live, auto-refreshing price badge — fetched in real time, not a static image -->
-[![RELIANCE.NS Live Price](https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=%F0%9F%92%B9%20RELIANCE.NS&query=%24.chart.result%5B0%5D.meta.regularMarketPrice&url=https%3A%2F%2Fquery1.finance.yahoo.com%2Fv8%2Ffinance%2Fchart%2FRELIANCE.NS&color=00C853&labelColor=1e1e2f&suffix=%20INR)](https://finance.yahoo.com/quote/RELIANCE.NS)
-
-*(This badge is not a picture — it pings the market on every page load and shows the actual current price. Refresh this page to watch it move.)*
-
-[![Live Chart](https://img.shields.io/badge/📊_Live_Chart-View_on_TradingView-131722?style=for-the-badge&logo=tradingview&logoColor=white)](https://www.tradingview.com/symbols/NSE-RELIANCE/)
-[![Live Price](https://img.shields.io/badge/💹_Live_Price-Yahoo_Finance-720E9E?style=for-the-badge&logo=yahoofinance&logoColor=white)](https://finance.yahoo.com/quote/RELIANCE.NS)
-
-</div>
-
----
-
-<div align="center">
-
-![Key Features](https://img.shields.io/badge/✨_KEY-Features-E17055?style=for-the-badge&labelColor=FAB1A0)
-
-</div>
-
-## ✨ Key Features
-
-- 📥 **Live Data Fetching** — Real-time and historical stock data via the yfinance API
-- 📊 **Moving Averages** — SMA 20, SMA 50, and EMA 20 calculated automatically
-- 📈 **Price Trend Visualization** — Combined chart of closing price with moving averages
-- 📉 **Volume Analysis** — Time-series bar chart of trading volume
-- 🎯 **Daily Returns Distribution** — Histogram + KDE curve to understand return patterns
-- 🔥 **Correlation Heatmap** — Relationship between price, volume, returns, and MAs
-- 🧮 **Volatility Tracking** — 20-day rolling volatility calculation
-- 🖼️ **Auto-Saved Charts** — All plots are automatically saved as high-res PNG files
-- 🧹 **Clean Data Pipeline** — Built-in missing value handling and MultiIndex flattening
-- 🔁 **Ticker-Agnostic** — Works with any valid stock symbol, not just one company
-- 🧾 **Quick Statistics** — Descriptive stats (mean, std, min/max) printed to console
-
----
-
-<div align="center">
-
-![Project Structure](https://img.shields.io/badge/🗂️_PROJECT-Structure-2D3436?style=for-the-badge&labelColor=636E72)
-
-</div>
-
-## 🗂️ Project Structure
-
-```
+<!-- ====================================================== --> <!-- KEY FEATURES --> <!-- ====================================================== --> <div align="center"> <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF512F,100:DD2476&height=130&text=✨%20KEY%20FEATURES&fontSize=32&fontColor=FFFFFF&fontAlignY=43&desc=Powerful%20Analysis%20and%20Visualization%20Tools&descSize=16&descAlignY=68" width="100%" /> </div>
+✨ Key Features
+📥 Live Data Fetching — Real-time and historical stock data through yfinance
+📊 Moving Averages — SMA 20, SMA 50 and EMA 20
+📈 Price Trend Visualization — Closing price with moving-average overlays
+📉 Volume Analysis — Trading-volume time series
+🎯 Daily Returns Distribution — Histogram with KDE curve
+🔥 Correlation Heatmap — Price, volume, returns and moving averages
+🧮 Volatility Tracking — 20-day rolling volatility
+🖼️ Auto-Saved Charts — High-resolution PNG outputs
+🧹 Clean Data Pipeline — Missing-value handling and MultiIndex flattening
+🔁 Ticker-Agnostic — Works with any valid Yahoo Finance ticker
+🧾 Quick Statistics — Mean, standard deviation, minimum and maximum
+<!-- ====================================================== --> <!-- PROJECT STRUCTURE --> <!-- ====================================================== --> <div align="center"> <img src="https://capsule-render.vercel.app/api?type=rect&color=0:636E72,100:2D3436&height=130&text=🗂️%20PROJECT%20STRUCTURE&fontSize=30&fontColor=FFFFFF&fontAlignY=43&desc=Clean%20and%20Simple%20Project%20Organization&descSize=16&descAlignY=68" width="100%" /> </div>
+🗂️ Project Structure
 stock-analysis-dashboard/
 │
-├── 📄 stock_analysis.py              # Main script — data fetch + analysis + plots
+├── 📄 stock_analysis.py
 ├── 📊 price_trend_with_moving_averages.png
 ├── 📊 trading_volume.png
 ├── 📊 daily_returns_distribution.png
 ├── 📊 correlation_heatmap.png
-├── 📄 requirements.txt               # Project dependencies
-├── 📄 README.md                      # You are here 👋
-└── 📄 LICENSE                        # MIT License
-```
+├── 📄 requirements.txt
+├── 📄 README.md
+└── 📄 LICENSE
 
----
-
-<div align="center">
-
-![Tech Stack](https://img.shields.io/badge/🛠️_TECH-Stack-0FB9B1?style=for-the-badge&labelColor=00CEC9)
-
-</div>
-
-## 🛠️ Tech Stack
-
-| Tool | Purpose |
-|------|---------|
-| 🐍 Python | Core programming language |
-| 📦 yfinance | Live stock market data fetching |
-| 🐼 Pandas | Data manipulation & feature engineering |
-| 🔢 NumPy | Numerical computations |
-| 🎨 Matplotlib | Base plotting engine |
-| 🌊 Seaborn | Statistical visualizations |
-
----
-
-<div align="center">
-
-![Getting Started](https://img.shields.io/badge/🚀_GETTING-Started-E84393?style=for-the-badge&labelColor=FD79A8)
-
-</div>
-
-## 🚀 Getting Started
-
-### ✅ Prerequisites
-- Python 3.9 or higher
-- Internet connection (required for live data fetching)
-
-### 1️⃣ Clone the repository
-```bash
+<!-- ====================================================== --> <!-- TECH STACK --> <!-- ====================================================== --> <div align="center"> <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00CEC9,100:0984E3&height=130&text=🛠️%20TECH%20STACK&fontSize=32&fontColor=FFFFFF&fontAlignY=43&desc=Technologies%20Powering%20the%20Dashboard&descSize=16&descAlignY=68" width="100%" /> </div>
+🛠️ Tech Stack
+Tool	Purpose
+🐍 Python	Core programming language
+📦 yfinance	Stock market data
+🐼 Pandas	Data manipulation
+🔢 NumPy	Numerical computation
+🎨 Matplotlib	Base plotting engine
+🌊 Seaborn	Statistical visualization
+<!-- ====================================================== --> <!-- GETTING STARTED --> <!-- ====================================================== --> <div align="center"> <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FD79A8,100:E84393&height=130&text=🚀%20GETTING%20STARTED&fontSize=30&fontColor=FFFFFF&fontAlignY=43&desc=Run%20Your%20First%20Stock%20Analysis&descSize=16&descAlignY=68" width="100%" /> </div>
+🚀 Getting Started
+✅ Prerequisites
+Python 3.9+
+Internet connection
+A valid Yahoo Finance ticker
+1️⃣ Clone the Repository
 git clone https://github.com/your-username/stock-analysis-dashboard.git
 cd stock-analysis-dashboard
-```
 
-### 2️⃣ Install dependencies
-```bash
+2️⃣ Install Dependencies
 pip install yfinance pandas numpy matplotlib seaborn
-```
 
-### 3️⃣ Run the script
-```bash
+3️⃣ Run the Script
 python stock_analysis.py
-```
 
-### 4️⃣ Output
-As soon as the script finishes, 4 charts will be saved automatically in the current folder 🎉
+4️⃣ Output
 
----
+The script automatically generates:
 
-<div align="center">
+price_trend_with_moving_averages.png
+trading_volume.png
+daily_returns_distribution.png
+correlation_heatmap.png
 
-![Configuration](https://img.shields.io/badge/⚙️_CONFIG-Options-FDCB6E?style=for-the-badge&labelColor=FFEAA7)
+<!-- ====================================================== --> <!-- CONFIGURATION --> <!-- ====================================================== --> <div align="center"> <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FDCB6E,100:FE8C00&height=130&text=⚙️%20CONFIGURATION&fontSize=32&fontColor=FFFFFF&fontAlignY=43&desc=Customize%20Your%20Stock%20Analysis&descSize=16&descAlignY=68" width="100%" /> </div>
+⚙️ Configuration
 
-</div>
+Change these values at the top of stock_analysis.py:
 
-## ⚙️ Configuration
-
-You can analyze any stock by changing these values at the top of the script:
-
-```python
 TICKER = "RELIANCE.NS"
 START_DATE = "2020-01-01"
 END_DATE = "2024-12-31"
-```
 
-> 💡 Tip: Use the correct exchange suffix for non-US stocks — e.g. `.NS` for NSE (India), `.BO` for BSE, `.L` for London Stock Exchange.
+🌍 Exchange Examples
+🇮🇳 NSE India       → RELIANCE.NS
+🇮🇳 BSE India       → RELIANCE.BO
+🇺🇸 USA             → AAPL
+🇺🇸 Tesla           → TSLA
+🇬🇧 London          → HSBA.L
 
----
 
+💡 Always use the correct Yahoo Finance ticker symbol for the exchange you want to analyze.
+
+<!-- ====================================================== --> <!-- SAMPLE OUTPUT --> <!-- ====================================================== --> <div align="center"> <img src="https://capsule-render.vercel.app/api?type=rect&color=0:A29BFE,100:6C5CE7&height=130&text=📸%20SAMPLE%20OUTPUT&fontSize=32&fontColor=FFFFFF&fontAlignY=43&desc=Publication-Ready%20Financial%20Visualizations&descSize=16&descAlignY=68" width="100%" /> </div>
+📸 Sample Output
 <div align="center">
-
-![Sample Output](https://img.shields.io/badge/📸_SAMPLE-Output-6C5CE7?style=for-the-badge&labelColor=A29BFE)
-
+📈 Price Trend	📊 Volume Analysis
+SMA / EMA Overlay	Trading Volume
+📉 Returns Distribution	🔥 Correlation Heatmap
+Histogram + KDE	Correlation Matrix
 </div>
+<!-- ====================================================== --> <!-- ROADMAP --> <!-- ====================================================== --> <div align="center">
 
-## 📸 Sample Output
-
-<div align="center">
-
-| Price Trend | Volume Analysis |
-|:---:|:---:|
-| 📈 SMA/EMA overlay chart | 📊 Volume bar chart |
-
-| Returns Distribution | Correlation Heatmap |
-|:---:|:---:|
-| 📉 Histogram + KDE | 🔥 Correlation matrix |
-
-</div>
-
----
-
-<div align="center">
-
-![Roadmap](https://img.shields.io/badge/🗺️_ROADMAP-What's%20Next-00CEC9?style=for-the-badge&labelColor=81ECEC)
-
-</div>
-
-## 🗺️ Roadmap
-
-- [ ] Add interactive charts using Plotly
-- [ ] Support multi-stock comparison in a single run
-- [ ] Add RSI, MACD, and Bollinger Bands indicators
-- [ ] Export analysis as a PDF report
-- [ ] Build a simple Streamlit web dashboard
-
----
-
-<div align="center">
-
-![FAQ](https://img.shields.io/badge/❓_FAQ-Common%20Questions-D63031?style=for-the-badge&labelColor=FF7675)
-
-</div>
-
-## ❓ FAQ
-
-**Q: Does this work for stocks outside India?**
-Yes — just change the `TICKER` to any valid Yahoo Finance symbol (e.g. `AAPL`, `TSLA`, `GOOGL`).
-
-**Q: Why is my data empty?**
-Usually caused by an invalid ticker symbol or no internet connection during the API call.
-
----
-
-<div align="center">
-
-![Feedback](https://img.shields.io/badge/💬_FEEDBACK-We're%20Listening-0984E3?style=for-the-badge&labelColor=74B9FF)
-
-</div>
-
-## 💬 Feedback
-
-If you have any suggestions or ideas for improvement, please open an issue — every bit of feedback helps make this project better! 🙌
-Real-world use cases from users are exactly what motivate new features to get built. 💡
-
----
-
-<div align="center">
-
-![Contributing](https://img.shields.io/badge/🤝_CONTRIBUTING-Get%20Involved-00B894?style=for-the-badge&labelColor=55EFC4)
-
-</div>
-
-## 🤝 Contributing
-
-Contributions are always welcome — fork it, make your changes, and send a PR! 🚀
-For bigger changes, opening an issue first to discuss is usually the better approach. 🧩
-
----
-
-<div align="center">
-
-![License](https://img.shields.io/badge/📄_LICENSE-MIT-2D3436?style=for-the-badge&labelColor=B2BEC3)
-
-</div>
-
-## 📄 License
-
-This project is licensed under the **MIT License** — free to use, modify, and distribute.
-
----
-
-<div align="center">
-
-### *"Markets move in cycles — so does growth. Keep analyzing, keep learning."* 🌱
-
-<br>
-
-![Made with Love](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red?style=for-the-badge)
-![Python Powered](https://img.shields.io/badge/Powered%20by-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Open Source](https://img.shields.io/badge/Open%20Source-💚-brightgreen?style=for-the-badge)
-![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-orange?style=for-the-badge)
-
-⭐ **If you found this project useful, consider giving it a star!** ⭐
-
-</div>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:81ECEC,100:00CEC9&height=130&text=🗺️%20
