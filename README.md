@@ -14,6 +14,7 @@
 ![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-4C72B0?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-ff69b4?style=for-the-badge)
 
 <br>
 
@@ -25,6 +26,32 @@
 ![Live Stock Ticker](https://raw.githubusercontent.com/gadhagod/stock-widget-images/main/graph.gif)
 
 </div>
+
+---
+
+## 📚 Menu
+
+- [Project Overview](#-project-overview)
+- [Live Market Snapshot](#-live-market-snapshot)
+- [Key Features](#-key-features)
+- [Project Structure](#️-project-structure)
+- [Tech Stack](#️-tech-stack)
+- [Getting Started](#-getting-started)
+- [Configuration](#️-configuration)
+- [Sample Output](#-sample-output)
+- [Roadmap](#-roadmap)
+- [FAQ](#-faq)
+- [Feedback](#-feedback)
+- [Contributing](#-contributing)
+- [License](#-license)
+
+---
+
+## 🧠 Project Overview
+
+This is an **end-to-end stock market analysis tool** built in Python that downloads real market data through the `yfinance` API and transforms it into professional-grade, publication-ready visualizations. It automatically calculates moving averages, daily returns, and rolling volatility, then generates four clean charts — trend, volume, return distribution, and correlation — so you can go from raw ticker data to actionable insight in a single run.
+
+Whether you're a student learning quantitative finance, a hobbyist tracking your favorite stock, or someone prototyping a bigger trading system, this project gives you a solid, ready-to-extend foundation.
 
 ---
 
@@ -41,12 +68,6 @@
 
 ---
 
-## 🧠 About the Project
-
-This is an **end-to-end stock market analysis tool** that downloads real market data through `yfinance` and transforms it into professional-grade visualizations. Trend, volatility, and correlation — all in a single script, chart-ready and report-ready.
-
----
-
 ## ✨ Key Features
 
 - 📥 **Live Data Fetching** — Real-time and historical stock data via the yfinance API
@@ -58,6 +79,8 @@ This is an **end-to-end stock market analysis tool** that downloads real market 
 - 🧮 **Volatility Tracking** — 20-day rolling volatility calculation
 - 🖼️ **Auto-Saved Charts** — All plots are automatically saved as high-res PNG files
 - 🧹 **Clean Data Pipeline** — Built-in missing value handling and MultiIndex flattening
+- 🔁 **Ticker-Agnostic** — Works with any valid stock symbol, not just one company
+- 🧾 **Quick Statistics** — Descriptive stats (mean, std, min/max) printed to console
 
 ---
 
@@ -93,6 +116,10 @@ stock-analysis-dashboard/
 
 ## 🚀 Getting Started
 
+### ✅ Prerequisites
+- Python 3.9 or higher
+- Internet connection (required for live data fetching)
+
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/your-username/stock-analysis-dashboard.git
@@ -124,9 +151,11 @@ START_DATE = "2020-01-01"
 END_DATE = "2024-12-31"
 ```
 
+> 💡 Tip: Use the correct exchange suffix for non-US stocks — e.g. `.NS` for NSE (India), `.BO` for BSE, `.L` for London Stock Exchange.
+
 ---
 
-## 📸 Sample Outputs
+## 📸 Sample Output
 
 <div align="center">
 
@@ -139,6 +168,26 @@ END_DATE = "2024-12-31"
 | 📉 Histogram + KDE | 🔥 Correlation matrix |
 
 </div>
+
+---
+
+## 🗺️ Roadmap
+
+- [ ] Add interactive charts using Plotly
+- [ ] Support multi-stock comparison in a single run
+- [ ] Add RSI, MACD, and Bollinger Bands indicators
+- [ ] Export analysis as a PDF report
+- [ ] Build a simple Streamlit web dashboard
+
+---
+
+## ❓ FAQ
+
+**Q: Does this work for stocks outside India?**
+Yes — just change the `TICKER` to any valid Yahoo Finance symbol (e.g. `AAPL`, `TSLA`, `GOOGL`).
+
+**Q: Why is my data empty?**
+Usually caused by an invalid ticker symbol or no internet connection during the API call.
 
 ---
 
@@ -156,6 +205,12 @@ For bigger changes, opening an issue first to discuss is usually the better appr
 
 ---
 
+## 📄 License
+
+This project is licensed under the **MIT License** — free to use, modify, and distribute.
+
+---
+
 <div align="center">
 
 ### *"Markets move in cycles — so does growth. Keep analyzing, keep learning."* 🌱
@@ -169,4 +224,4 @@ For bigger changes, opening an issue first to discuss is usually the better appr
 
 ⭐ **If you found this project useful, consider giving it a star!** ⭐
 
-</div> 
+</div>
