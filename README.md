@@ -21,7 +21,7 @@
 
 Code
 
----
+
 
 ## 🚀 Overview
 This project analyzes **Reliance Industries (RELIANCE.NS)** stock data from 2020–2024 using Python.  
@@ -32,7 +32,7 @@ The goal is to make stock analysis **clear, interactive, and visually appealing*
 
 
 ## ⚡ Run Live
-```bash
+bash
 python stock_analysis.py
 ➡️ Instantly downloads the latest Reliance stock data and updates all charts.
 No static numbers — every run is fresh, every chart is live.
