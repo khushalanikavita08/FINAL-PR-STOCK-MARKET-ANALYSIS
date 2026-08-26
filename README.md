@@ -465,5 +465,10 @@ You are free to use, modify, and distribute this project according to the terms 
 
 ✨ Made with ❤️ by Kavita ✨
 ⭐ If you like this project, don't forget to Star it! ⭐
+
+![Made With Python](https://img.shields.io/badge/MADE%20WITH-PYTHON-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![Data Driven](https://img.shields.io/badge/DATA-DRIVEN-FF6F00?style=for-the-badge)
+![Analytics](https://img.shields.io/badge/ANALYTICS-POWERED-8A2BE2?style=for-the-badge)
+![Completed](https://img.shields.io/badge/STATUS-COMPLETED-00C853?style=for-the-badge)
 </div>
  
