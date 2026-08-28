@@ -265,6 +265,8 @@ Histogram + KDE
 
 🔥 Correlation Heatmap
 Correlation Matrix
+<img width="1024" height="1536" alt="ChatGPT Image Aug 28, 2026, 10_33_55 AM" src="https://github.com/user-attachments/assets/d99826bc-5413-4c94-a2d6-3f60a05ae848" />
+
 
 <div align="center">
 
