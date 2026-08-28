@@ -271,8 +271,8 @@ Correlation Matrix
 
 
 <div align="center">
-<img width="555" height="1600" alt="WhatsApp Image 2026-08-28 at 10 13 59 AM" src="https://github.com/user-attachments/assets/43499e7a-5800-472c-b6e9-f0bacb77f275" />
-
+ 
+![Uploading ChatGPT Image Aug 28, 2026, 10_23_53 AM.png…]()
 
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:11998E,100:38EF7D&height=130&text=📊%20PERFORMANCE%20INSIGHTS&fontSize=31&fontColor=FFFFFF&fontAlignY=43&desc=Understand%20Market%20Trends%20and%20Volatility&descSize=16&descAlignY=68" width="100%" />
