@@ -272,10 +272,8 @@ Correlation Matrix
 
 <div align="center">
  
-![Uploading ChatGPT Image Aug 28, 2026, 10_23_53 AM.png…]()
 
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:11998E,100:38EF7D&height=130&text=📊%20PERFORMANCE%20INSIGHTS&fontSize=31&fontColor=FFFFFF&fontAlignY=43&desc=Understand%20Market%20Trends%20and%20Volatility&descSize=16&descAlignY=68" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:11998E,100:38EF7D&height=130&text📊%20PERFORMANCE%20INSIGHTS&fontSize=31&fontColor=FFFFFF&fontAlignY=43&desc=Understand%20Market%20Trends%20and%20Volatility&descSize=16&descAlignY=68" width="100%" />
 
 </div>
 
