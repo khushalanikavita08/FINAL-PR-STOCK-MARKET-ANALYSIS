@@ -168,6 +168,9 @@ stock-analysis-dashboard/
 ├── 📄 requirements.txt
 ├── 📄 README.md
 └── 📄 LICENSE
+
+<img width="1536" height="1024" alt="ChatGPT Image Aug 28, 2026, 10_39_15 AM" src="https://github.com/user-attachments/assets/fee7c3c8-0dd7-45b3-886c-7ceafe4972fc" />
+
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00CEC9,100:0984E3&height=130&text=🛠️%20TECH%20STACK&fontSize=32&fontColor=FFFFFF&fontAlignY=43&desc=Technologies%20Powering%20the%20Dashboard&descSize=16&descAlignY=68" width="100%" />
