@@ -1,5 +1,6 @@
 
  # STOCK-MARKET-ANALYSIS 
+# STOCK-MARKET-ANALYSIS 
 
 <div align="center">
 
@@ -269,9 +270,9 @@ Correlation Matrix
 
 <div align="center">
 
- 
-</div>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:11998E,100:38EF7D&height=130&text=📊%20PERFORMANCE%20INSIGHTS&fontSize=31&fontColor=FFFFFF&fontAlignY=43&desc=Understand%20Market%20Trends%20and%20Volatility&descSize=16&descAlignY=68" width="100%" />
 
+</div>
 
 📊 Performance Insights
 📈 Trend Analysis
