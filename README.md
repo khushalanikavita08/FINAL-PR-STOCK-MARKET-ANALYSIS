@@ -1,5 +1,3 @@
-
- 
 # STOCK-MARKET-ANALYSIS 
 
 <div align="center">
@@ -268,12 +266,9 @@ Histogram + KDE
 🔥 Correlation Heatmap
 Correlation Matrix
 
-
-
 <div align="center">
- 
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:11998E,100:38EF7D&height=130&text📊%20PERFORMANCE%20INSIGHTS&fontSize=31&fontColor=FFFFFF&fontAlignY=43&desc=Understand%20Market%20Trends%20and%20Volatility&descSize=16&descAlignY=68" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:11998E,100:38EF7D&height=130&text=📊%20PERFORMANCE%20INSIGHTS&fontSize=31&fontColor=FFFFFF&fontAlignY=43&desc=Understand%20Market%20Trends%20and%20Volatility&descSize=16&descAlignY=68" width="100%" />
 
 </div>
 
@@ -467,7 +462,6 @@ You are free to use, modify, and distribute this project according to the terms 
 
 
 <br>
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9A7,50:0984E3,100:6C5CE7&height=200&section=header&text=🙏%20THANK%20YOU%20FOR%20VISITING&fontSize=36&fontColor=FFFFFF&fontAlignY=35&desc=Hope%20this%20project%20added%20value%20to%20your%20journey&descSize=18&descAlignY=55&animation=fadeIn" width="100%" />
