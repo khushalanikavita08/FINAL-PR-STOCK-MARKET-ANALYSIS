@@ -1,4 +1,4 @@
-# STOCK-MARKET-ANALYSIS 
+# 🟠 ⚡STOCK-MARKET-ANALYSIS 📊
 
 <div align="center">
 
